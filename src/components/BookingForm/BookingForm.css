@@ -1,0 +1,12 @@
+.page-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .main-content {
+    margin-left: 250px; /* Width of sidebar */
+    padding: 1rem;
+    margin-top: 60px; /* Height of header */
+  }
+  
+  

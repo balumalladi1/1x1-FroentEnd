@@ -1,0 +1,26 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #282c34;
+    color: white;
+    position: fixed;
+    width: calc(100% - 250px); /* Adjust width to fit the sidebar */
+    top: 0;
+    left: 250px; /* Sidebar width */
+    z-index: 1000;
+  }
+  
+  .logout-button {
+    background-color: #ff5722;
+    border: none;
+    color: white;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .logout-button:hover {
+    background-color: #e64a19;
+  }
